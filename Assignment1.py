@@ -10,10 +10,10 @@ from scipy.optimize import linprog
 obj_func=[-50,-120]
 
 # Taking LHS of the constraints
-lhs_inequality = [[100,200],[10,30],[1,1]]
+lhs_inequality = [[10,30],[7000,2000],[1,1]]
 
 # Taking RHS of the constraints
-rhs_inequality = [[10000,1200,110]]
+rhs_inequality = [[1200,700000,110]]
 
 # Giving the limits or boundaries to decision variables (x >= 0 and y >=0 )
 boundaries = [(0,float('inf')),(0,float('inf'))]
