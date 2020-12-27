@@ -2,7 +2,7 @@
 from scipy.optimize import linprog
 
 #  Let Decision variables x and y
-#  Constraints 100x+200y <= 10000 , 10x+30y <= 1200 , x+y<=110
+#  Constraints 7000x+2000y <= 700000 , 10x+30y <= 1200 , x+y<=110
 #  The limits or boundaries for decision variables x >=0 and y>=0
 
 
